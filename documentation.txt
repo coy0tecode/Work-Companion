@@ -1,0 +1,182 @@
+Work Companion
+Alpha version 0.1
+
+
+Registration Panel:
+	
+	* If this is your first time using the app, Registration Panel should be the first screen you see
+	
+	* Enter your information in the appropriate sections and click 'Register' when you're ready
+	
+	* Don't think too hard about which companion to choose... You can change it at any time
+		- In the Menu Bar click Menu, navigate to Companion Style, and click on your preferred companion from the list
+		
+	* If you want to change your profile name or birthday, please see the respective processes below:
+		- In file explorer, navigate to the app .exe's directory + \Profiles
+			- Select the folder with your profile name and rename it to whatever you'd like
+			
+		- Inside the \Profiles directory, go into the folder with your profile name
+			- Edit the birthday.txt file, but be sure to keep the same format for the birthday
+			  (for example, keep the abbreviated day of the week (eg. Mon, Thu), time (00:00:00), and year (eg. 1984))
+			  Failure to do so will cause an error when the app tries to determine if your birthday is today
+			  
+	* The Registration Panel can be accessed by clicking Menu, then Register New Profile in the Change Profile submenu
+	
+	
+Profile Popup:
+
+	* Click the profile you want to sign in to, then click Ok
+		- If the profile is found, the app loads and you will then see the Main Panel (unless it's your birthday!)
+		
+
+Main Panel:
+
+	* Welcome to the Main Panel! Pretty sparse I know.
+	
+	* From here you can navigate to the Break Panel and Notes Panel, just click the respective button
+	
+	
+Break Panel:
+
+	* The Break Panel allows you to create custom breaks from a series of pre-selected options
+	
+	* To create a break, you'll use the dropdown menus to choose parameters for the break you want
+	
+	* Make sure to click Save Break once you have chosen your preferred parameters from the drop down menus
+		- Input a name for your break and then you will see it in the Saved Breaks drop down menu
+		
+	* When you select a break from the Saved Breaks drop down menu, this starts the Interval timer
+		- After the selected Interval timer has elapsed, the break you created will pop up on your screen
+			- Enjoy your break! (or click the Dismiss button or the 'X' in the top right of the pop up)
+			
+	* If you don't want to wait the Interval time you selected, you can click the Break Now button
+		- Breaks on demand! All other parameters besides Interval are unchanged when clicking Break Now
+		- Please note that this does not reset or remove the interval timer: You will still get a break pop up after the chosen interval
+		
+	* If you want to remove a break, select it from Saved Breaks and click the Delete Break button
+	
+	* You can edit individual break files in your profile directory under /Breaks
+		- Please be careful editing the break files, as changing the number of lines or writing in a non-existent parameter value will cause an error
+		
+	* The Main Menu button returns you to the Main Panel
+		
+
+Notes Panel:
+
+	* The Notes Panel lets you write, save, read and delete notes of your own creation
+	
+	* Write in whatever you want in the Note Entry box, and if you don't like it, click the Clear Text button to get rid of it all!
+	
+	* If you do like it, click on Save Note and you'll be prompted to enter a title
+		- Your note will be saved as a text file under your profile directory + \Notes
+		- You can edit this note simply by editing the text file in the \Notes directory
+		
+	* Once your note is saved, you will see it in Note Explorer window on the right side of the panel
+		- Click on a note and then click the Read Note button to, well, read the note!
+		- In a similar fashion, click on a note and then click the Delete Note button if you want to remove it
+		
+	* The Main Menu button returns you to the Main Panel
+	
+	
+Menu Bar:
+
+	* The Menu Bar has two primary headers: Menu and Help. Their functions will be briefly listed below
+	
+	* Menu
+		- Change Profile
+			- Select Profile (opens the Profile Popup)
+			- Register New Profile (opens the Registration Panel)
+		- Companion Style (list of all companions to choose from)
+		- Quit (prompts you to exit the application or cancel)
+		
+	* Help
+		- Documentation (takes you to the github link for this document)
+		- Report a Problem (opens your default email application with the to field populated by my email address)
+		- About (shows a small pop up window with a short description on the Work Companion's details)
+		
+		
+Image Credits:
+
+	* All companion images downloaded from shareicon.net. Individual icon credit given below
+
+	* default0.png : Flaticon Basic License : <div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* butler0.png : Flaticon Basic License : <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* bro0.png : Flaticon Basic License : <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* goon0.png : Flaticon Basic License : <div>Icons made by <a href="https://www.flaticon.com/authors/smashicons" title="Smashicons">Smashicons</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* vassal0.png : Flaticon Basic License : <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* bff0.png : Flaticon Basic License : <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* secretary0.png : Flaticon Basic License : <div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* dog0.png : Flaticon Basic License : <div>Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* walk.png : Getty Images
+	
+	* stretch.png : Getty Images
+	
+	* snack.png : Getty Images
+	
+	* phone.png : Twin Design/Shutterstock
+	
+	* meditate.png : iStockphoto
+	
+	* cake.png : Flaticon Basic License : <div>Icons made by <a href="https://www.flaticon.com/authors/google" title="Google">Google</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
+	
+	* balloons.png : Flaticon Basic License : Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+	
+	* phat.png : Flaticon Basic License : Icons made by <a href="http://www.freepik.com/" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon"> www.flaticon.com</a>
+	
+	
+Music Credits:
+
+	* Elegy For Argus
+		- Artist: Dee Yan-Key
+		- Length: 10:59
+		- Location: https://freemusicarchive.org/genre/Classical?sort=date&d=0&pageSize=20&page=4
+		- Available under Creative Commons (information below)
+			- License: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+			- Disclaimer: https://creativecommons.org/licenses/by-nc-sa/4.0/
+			
+	* Sphere
+		- Artist: Silicon Transmitter
+		- Length: 9:55
+		- Location: https://freemusicarchive.org/music/Silicon_Transmitter/Sector/Sphere_1855
+		- Available under Creative Commons (information below)
+			- License: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+			- Disclaimer: https://creativecommons.org/licenses/by-nc-sa/4.0/
+			
+	* A Christmas Adventure
+		- Artist: TRG Banks
+		- Length: 11:09
+		- Location: https://freemusicarchive.org/music/TRG_Banks/TRG_Banks_Christmas_Album/a-christmas-adventure
+		- Available under Creative Commons (information below)
+			- License: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+			- Disclaimer: https://creativecommons.org/licenses/by-nc-sa/4.0/
+			
+	* Binary Code
+		- Artist: Silicon Transmitter
+		- Length: 11:02
+		- Location: https://freemusicarchive.org/music/Silicon_Transmitter/Sector/Binary_Code_1056
+		- Available under Creative Commons (information below)
+			- License: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+			- Disclaimer: https://creativecommons.org/licenses/by-nc-sa/4.0/
+			
+
+
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
+		
