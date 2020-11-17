@@ -1543,7 +1543,7 @@ class MainFrame(wx.Frame):
     
     # Bound to 'Documentation' under 'Help'. Opens web browser to doc page.
     def onDoc(self, e):
-        webbrowser.open('https://github.com/coy0tecode')
+        webbrowser.open('https://github.com/coy0tecode/Work-Companion/blob/main/documentation.txt')
         # ^ NOTE: update url when repository and readme is created
     
     
