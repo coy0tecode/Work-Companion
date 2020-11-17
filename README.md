@@ -16,7 +16,7 @@ Release info:
 * An app that works and runs and doesn't have errors and does some stuff for you oh boy
 * Very barebones, it does not look pretty
 * Sizing is all over the place. You'll have to resize the app window sometimes and the profile popup shows up in a weird spot. Sorry bout that.
-* Closing the app does not actually exit the program, should be a simple fix coming in the near future
+* Closing the app does not actually exit the program, should be a simple fix coming in the near future (FIXED)
 * Currently lots of stuff in one folder/location. Moving folders and files from the app location will probably break the program, so please don't.
 * Looking into many improvements for the next release, just wanted to get this working version out there for now
 
