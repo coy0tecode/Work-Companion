@@ -20,5 +20,8 @@ Release info:
 * Currently lots of stuff in one folder/location. Moving folders and files from the app location will probably break the program, so please don't.
 * Looking into many improvements for the next release, just wanted to get this working version out there for now
 
+Application Download link: https://drive.google.com/drive/folders/1MGbQD-aq6GPVMegac5J1j45pxrRTgdYt?usp=sharing
+To use, just download the folder from the link, open the folder and double click Companion.exe. The distribution was made with Pyinstaller --onedir method.
+
 
 I hope you enjoy the app. If you are running into any issues or have suggestions, please feel free to let me know. Thanks!
