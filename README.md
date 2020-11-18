@@ -21,6 +21,7 @@ Release info:
 * Looking into many improvements for the next release, just wanted to get this working version out there for now
 
 Application Download link: https://drive.google.com/drive/folders/1MGbQD-aq6GPVMegac5J1j45pxrRTgdYt?usp=sharing
+
 To use, just download the folder from the link, open the folder and double click Companion.exe. The distribution was made with Pyinstaller --onedir method.
 
 
