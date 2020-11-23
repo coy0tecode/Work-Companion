@@ -13,6 +13,7 @@ import wx.lib.agw.genericmessagedialog as GMD
 from datetime import datetime
 from datetime import timedelta
 from random import randint
+from functools import partial
 
 
 
@@ -1356,21 +1357,29 @@ class MainFrame(wx.Frame):
         
         compStyle = wx.Menu()
         default = compStyle.Append(wx.ID_ANY, 'Default')
-        self.Bind(wx.EVT_MENU, self.onDef, default)
+        self.Bind(wx.EVT_MENU,
+                  partial(self.onCompanion, default.GetItemLabelText()), default)
         butler = compStyle.Append(wx.ID_ANY, 'Butler')
-        self.Bind(wx.EVT_MENU, self.onBut, butler)
+        self.Bind(wx.EVT_MENU,
+                  partial(self.onCompanion, butler.GetItemLabelText()), butler)
         bro = compStyle.Append(wx.ID_ANY, 'Bro')
-        self.Bind(wx.EVT_MENU, self.onBro, bro)
+        self.Bind(wx.EVT_MENU,
+                  partial(self.onCompanion, bro.GetItemLabelText()), bro)
         goon = compStyle.Append(wx.ID_ANY, 'Goon')
-        self.Bind(wx.EVT_MENU, self.onGoon, goon)
+        self.Bind(wx.EVT_MENU,
+                  partial(self.onCompanion, goon.GetItemLabelText()), goon)
         vassal = compStyle.Append(wx.ID_ANY, 'Vassal')
-        self.Bind(wx.EVT_MENU, self.onVas, vassal)
+        self.Bind(wx.EVT_MENU,
+                  partial(self.onCompanion, vassal.GetItemLabelText()), vassal)
         bff = compStyle.Append(wx.ID_ANY, 'BFF')
-        self.Bind(wx.EVT_MENU, self.onBFF, bff)
+        self.Bind(wx.EVT_MENU,
+                  partial(self.onCompanion, bff.GetItemLabelText()), bff)
         sec = compStyle.Append(wx.ID_ANY, 'Secretary')
-        self.Bind(wx.EVT_MENU, self.onSec, sec)
+        self.Bind(wx.EVT_MENU,
+                  partial(self.onCompanion, sec.GetItemLabelText()), sec)
         dog = compStyle.Append(wx.ID_ANY, 'Dog')
-        self.Bind(wx.EVT_MENU, self.onDog, dog)
+        self.Bind(wx.EVT_MENU,
+                  partial(self.onCompanion, dog.GetItemLabelText()), dog)
         mainMenu.AppendSubMenu(compStyle, 'Companion Style')
         
         mainMenu.AppendSeparator()
@@ -1452,86 +1461,12 @@ class MainFrame(wx.Frame):
         reg_panel.Show()
         
     
-    # NOTE: These below methods are a bad way to do write in current companion
-    # Need to find a better solution, will update later
-    
-    # Bound to 'Default' under 'Companion Style' submenu
-    def onDef(self, e):
+    # Bound to all items in 'Companion Style'
+    def onCompanion(self, comp, e):
         global current_profile_dir
         os.chdir(current_profile_dir)
-        companion_file = open('companion.txt', 'w')
-        companion_file.write('Default')
-        companion_file.close()
-        main_panel.updateCompanion()
-        
-    
-    # Bound to 'Butler under 'Companion Style' submenu
-    def onBut(self, e):
-        global current_profile_dir
-        os.chdir(current_profile_dir)
-        companion_file = open('companion.txt', 'w')
-        companion_file.write('Butler')
-        companion_file.close()
-        main_panel.updateCompanion()
-        
-        
-    # Bound to 'Bro' under 'Companion Style' submenu
-    def onBro(self, e):
-        global current_profile_dir
-        os.chdir(current_profile_dir)
-        companion_file = open('companion.txt', 'w')
-        companion_file.write('Bro')
-        companion_file.close()
-        main_panel.updateCompanion()
-        
-        
-    # Bound to 'Goon' under 'Companion Style' submenu
-    def onGoon(self, e):
-        global current_profile_dir
-        os.chdir(current_profile_dir)
-        companion_file = open('companion.txt', 'w')
-        companion_file.write('Goon')
-        companion_file.close()
-        main_panel.updateCompanion()
-        
-        
-    # Bound to 'Vassal' under 'Companion Style' submenu
-    def onVas(self, e):
-        global current_profile_dir
-        os.chdir(current_profile_dir)
-        companion_file = open('companion.txt', 'w')
-        companion_file.write('Vassal')
-        companion_file.close()
-        main_panel.updateCompanion()
-        
-        
-    # Bound to 'BFF' under 'Companion Style' submenu
-    def onBFF(self, e):
-        global current_profile_dir
-        os.chdir(current_profile_dir)
-        companion_file = open('companion.txt', 'w')
-        companion_file.write('BFF')
-        companion_file.close()
-        main_panel.updateCompanion()
-        
-        
-    # Bound to 'Secretary' under 'Companion Style' submenu
-    def onSec(self, e):
-        global current_profile_dir
-        os.chdir(current_profile_dir)
-        companion_file = open('companion.txt', 'w')
-        companion_file.write('Secretary')
-        companion_file.close()
-        main_panel.updateCompanion()
-        
-        
-    # Bound to 'Dog' under 'Companion Style' submenu
-    def onDog(self, e):
-        global current_profile_dir
-        os.chdir(current_profile_dir)
-        companion_file = open('companion.txt', 'w')
-        companion_file.write('Dog')
-        companion_file.close()
+        with open('companion.txt', 'w') as cmp:
+            cmp.write(comp)
         main_panel.updateCompanion()
         
     
