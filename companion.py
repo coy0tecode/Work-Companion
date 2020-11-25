@@ -208,6 +208,10 @@ class MainPanel(wx.Panel):
         self.vbox = wx.BoxSizer(wx.VERTICAL)
         
         
+        # Create dummy object(s) for sizing
+        self.dummy1 = wx.StaticText(self, label='')
+        
+        
         # hbox1 (date/time/birthday message)
         self.hbox1 = wx.BoxSizer(wx.HORIZONTAL)
         
@@ -216,6 +220,7 @@ class MainPanel(wx.Panel):
         self.hbox2 = wx.BoxSizer(wx.HORIZONTAL)
         self.break_button = wx.Button(self, label='Break Panel', size=(100, 50))
         self.Bind(wx.EVT_BUTTON, self.breakShow, self.break_button)
+        self.hbox2.Add(self.dummy1, 1, flag=wx.ALL, border=20)
         self.hbox2.Add(self.break_button, 1, flag=wx.ALIGN_RIGHT|wx.ALL, border=10)
         
         # Add hbox2 to vbox
