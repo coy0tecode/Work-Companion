@@ -1,5 +1,5 @@
 Work Companion
-Alpha version 0.1
+Beta version 0.1
 
 
 Registration Panel:
@@ -87,6 +87,7 @@ Menu Bar:
 			- Select Profile (opens the Profile Popup)
 			- Register New Profile (opens the Registration Panel)
 		- Companion Style (list of all companions to choose from)
+		- Background Color (change the app's background color)
 		- Quit (prompts you to exit the application or cancel)
 		
 	* Help
