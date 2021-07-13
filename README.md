@@ -43,3 +43,8 @@ To use, just download the folder from the link, open the folder and double click
 
 
 I hope you enjoy the app. If you are running into any issues or have suggestions, please feel free to let me know. Thanks!
+
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+Update 7/13/2021
+
+I had shelved this indefinitely to work on some other things, figured the Beta release was good enough. But I just tried using the app myself and noticed a few glaring issues. Will be updating and adding a new version soon.
