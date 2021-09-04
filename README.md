@@ -35,7 +35,9 @@ Release Info:
 
 
 
-Application Download link: https://drive.google.com/drive/folders/1MGbQD-aq6GPVMegac5J1j45pxrRTgdYt?usp=sharing
+Application Download link (Alpha): https://drive.google.com/drive/folders/1MGbQD-aq6GPVMegac5J1j45pxrRTgdYt?usp=sharing
+
+Application Download link (Beta): https://drive.google.com/drive/folders/15jy3s3QBeX0W8ps4LtLlrCbJ18UvWnRj?usp=sharing
 
 Both Alpha and Beta versions are available from this link.
 
@@ -48,3 +50,11 @@ I hope you enjoy the app. If you are running into any issues or have suggestions
 Update 7/13/2021
 
 I had shelved this indefinitely to work on some other things, figured the Beta release was good enough. But I just tried using the app myself and noticed a few glaring issues. Will be updating and adding a new version soon.
+
+
+Update 9/04/2021
+
+First version has release! Well not actually. It's available for download now, I just haven't made a release for it yet. Previous issues such as incorrect companion images being displayed during breaks and the app not finding any break files despite them being present in the directory, have been resolved. I'll be doing some additional testing and releasing another version if needed.
+
+
+Download link: https://drive.google.com/drive/folders/1L_elaGdFQSIZH3C3ZTIvSHEeY1olnBCv?usp=sharing
