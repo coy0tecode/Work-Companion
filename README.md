@@ -54,7 +54,7 @@ I had shelved this indefinitely to work on some other things, figured the Beta r
 
 Update 9/04/2021
 
-First version has release! Well not actually. It's available for download now, I just haven't made a release for it yet. Previous issues such as incorrect companion images being displayed during breaks and the app not finding any break files despite them being present in the directory, have been resolved. I'll be doing some additional testing and releasing another version if needed.
+First version has a release! Well not actually. It's available for download now, I just haven't made a release for it yet. Previous issues such as incorrect companion images being displayed during breaks and the app not finding any break files despite them being present in the directory, have been resolved. I'll be doing some additional testing and releasing another version if needed.
 
 
 Download link: https://drive.google.com/drive/folders/1L_elaGdFQSIZH3C3ZTIvSHEeY1olnBCv?usp=sharing
