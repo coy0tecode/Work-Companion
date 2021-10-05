@@ -35,6 +35,16 @@ Release Info:
 
 
 
+Release v1:
+
+
+Release Info:
+
+-     Layout updated again, Break Menu titles now align properly with their drop down menus
+-     Fixed an issue where breaks were not displaying the correct companion image
+-     Fixed an issue where the app would not find break files when calling breakFunction
+
+Application Download link: https://drive.google.com/drive/folders/1L_elaGdFQSIZH3C3ZTIvSHEeY1olnBCv?usp=sharing
 
 
 
@@ -42,7 +52,9 @@ Application Download link (Alpha): https://drive.google.com/drive/folders/1MGbQD
 
 Application Download link (Beta): https://drive.google.com/drive/folders/15jy3s3QBeX0W8ps4LtLlrCbJ18UvWnRj?usp=sharing
 
-Release v1: https://drive.google.com/drive/folders/1L_elaGdFQSIZH3C3ZTIvSHEeY1olnBCv?usp=sharing
+Application Download link (Release v1):
+
+
 
 To use, just download the folder from the link, open the folder and double click Companion.exe. The distribution was made with Pyinstaller --onedir method.
 
