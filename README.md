@@ -35,11 +35,14 @@ Release Info:
 
 
 
+
+
+
 Application Download link (Alpha): https://drive.google.com/drive/folders/1MGbQD-aq6GPVMegac5J1j45pxrRTgdYt?usp=sharing
 
 Application Download link (Beta): https://drive.google.com/drive/folders/15jy3s3QBeX0W8ps4LtLlrCbJ18UvWnRj?usp=sharing
 
-Both Alpha and Beta versions are available from this link.
+Release v1: https://drive.google.com/drive/folders/1L_elaGdFQSIZH3C3ZTIvSHEeY1olnBCv?usp=sharing
 
 To use, just download the folder from the link, open the folder and double click Companion.exe. The distribution was made with Pyinstaller --onedir method.
 
