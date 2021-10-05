@@ -13,6 +13,7 @@ All the logic in the app should work, I am not running into any errors during my
 Also, if you know wx and can provide any guidance on the sizing in the app, that would be greatly appreciated.
 
 Release info:
+
 * An app that works and runs and doesn't have errors and does some stuff for you oh boy
 * Very barebones, it does not look pretty
 * Sizing is all over the place. You'll have to resize the app window sometimes and the profile popup shows up in a weird spot. Sorry bout that.
@@ -40,11 +41,10 @@ Release v1:
 
 Release Info:
 
--     Layout updated again, Break Menu titles now align properly with their drop down menus
--     Fixed an issue where breaks were not displaying the correct companion image
--     Fixed an issue where the app would not find break files when calling breakFunction
+* Layout updated again, Break Menu titles now align properly with their drop down menus
+* Fixed an issue where breaks were not displaying the correct companion image
+* Fixed an issue where the app would not find break files when calling breakFunction
 
-Application Download link: https://drive.google.com/drive/folders/1L_elaGdFQSIZH3C3ZTIvSHEeY1olnBCv?usp=sharing
 
 
 
@@ -52,7 +52,7 @@ Application Download link (Alpha): https://drive.google.com/drive/folders/1MGbQD
 
 Application Download link (Beta): https://drive.google.com/drive/folders/15jy3s3QBeX0W8ps4LtLlrCbJ18UvWnRj?usp=sharing
 
-Application Download link (Release v1):
+Application Download link (Release v1): https://drive.google.com/drive/folders/1L_elaGdFQSIZH3C3ZTIvSHEeY1olnBCv?usp=sharing
 
 
 
@@ -61,15 +61,3 @@ To use, just download the folder from the link, open the folder and double click
 
 I hope you enjoy the app. If you are running into any issues or have suggestions, please feel free to let me know. Thanks!
 
-------------------------------------------------------------------------------------------------------------------------------------------------------------
-Update 7/13/2021
-
-I had shelved this indefinitely to work on some other things, figured the Beta release was good enough. But I just tried using the app myself and noticed a few glaring issues. Will be updating and adding a new version soon.
-
-
-Update 9/04/2021
-
-First version has a release! Well not actually. It's available for download now, I just haven't made a release for it yet. Previous issues such as incorrect companion images being displayed during breaks and the app not finding any break files despite them being present in the directory, have been resolved. I'll be doing some additional testing and releasing another version if needed.
-
-
-Download link: https://drive.google.com/drive/folders/1L_elaGdFQSIZH3C3ZTIvSHEeY1olnBCv?usp=sharing
